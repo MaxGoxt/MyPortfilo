@@ -24,7 +24,7 @@ body {
   }
   
   .topmenu:hover {
-    color: white;
+    color: #fff;
     font-weight: bolder;
     text-decoration: underline;
   }
@@ -295,7 +295,7 @@ body {
     padding: 25px; 
     margin-left: 50px; 
     margin-right: 50px;   
-    border: thin solid white;
+    border: thin solid #fff;
     width: 50%;
   }
   
