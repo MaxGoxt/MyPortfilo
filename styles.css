@@ -5,7 +5,7 @@ body {
   /* Navigation Bar */
   
   #home {
-    background-color:  #7600bc;
+    background-color:  #0076bc;
     padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
@@ -16,7 +16,7 @@ body {
    }
   
   .topmenu {
-    color: lightgray;
+    color: #fff;
     margin: 10px;
     padding: 20px;
     font-size: 20px;
@@ -37,7 +37,8 @@ body {
   .profile_name {
     float: left;
     padding-left: 2cm;
-    color: #e8bcf0
+    color: #fff;
+    font-size: 30px;
   }
   
   .profile_name .contact_info {
@@ -61,7 +62,7 @@ body {
     font-size: 50px;
     text-align: center;
     float: left;
-    color: #7600bc;
+    color: #0076bc;
     margin: 30px;
     margin-left: 60px;
     margin-top: 40px;
@@ -95,7 +96,7 @@ body {
   #about-me h1 {
     font-size: 65px;
     margin-top: 90px;
-    color: #7600bc;
+    color: #0076bc;
   }
   
   #about-me p {
@@ -213,7 +214,7 @@ body {
   }
   
   .recommendation span {
-    color: #7600bc;
+    color: #0076bc;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -224,7 +225,7 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 100%;
-    background-color: #7600bc;
+    background-color: #0076bc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,7 +239,7 @@ body {
   
   .popup {
     width:400px;
-    background-color: #e8bcf0;
+    background-color: #bce8f0;
     border-radius: 3mm;
     top: 50%;
     left:50%;
@@ -251,12 +252,13 @@ body {
   
   .popup img {
     padding-top: 20px;
+    height: 35px;
   }
   
   .popup button {
     background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
+    border: 1px solid #0076bc;
+    color: #0076bc;
     display: block;
     border-radius: 6px;
     text-align: center;
@@ -269,8 +271,8 @@ body {
   
   .popup button:hover {
     background-color: #fff;
-    border: 2px solid #7600bc;
-    color: #7600bc;
+    border: 2px solid #0076bc;
+    color: #0076bc;
     display: block;
     font-weight: bolder;
     text-align: center;
@@ -300,9 +302,9 @@ body {
   /* Buttons */
   
   button {
-    background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
+    background-color: #0076bc;
+    border: 1px solid #0076bc;
+    color: #fff;
     display: block;
     border-radius: 6px;
     text-align: center;
@@ -313,9 +315,9 @@ body {
   }
   
   button:hover {
-    background-color: #7600bc;
-    border: 1px solid #7600bc;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid #0076bc;
+    color: #0076bc;
     display: block;
     border-radius: 6px;
     text-align: center;
